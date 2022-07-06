@@ -1,3 +1,8 @@
+const entities = []
+
+for (let i = 0; i < 3000000; i++)
+  entities[i] = {id: i}
+
 let start = 0, time = 0
 const doIt = (withMap, callID) => {
   const map = withMap ? new Map() : {}
